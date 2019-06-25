@@ -3,8 +3,8 @@
 #' @param api_token
 #' @param workspace_id
 #' @param user_agent
-#' @return a data frame of Toggl clients
 #'
+#' @return a data frame of Toggl clients
 get_toggl_clients <- function(api_token,
                               workspace_id,
                               user_agent = "api_test") {

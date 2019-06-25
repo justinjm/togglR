@@ -6,6 +6,7 @@
 #' @param since
 #' @param until
 #' @param user_agent
+#'
 #' @return a dataframe of Toggl Time entries
 get_toggl_entries <- function(api_token,
                               workspace_id,
